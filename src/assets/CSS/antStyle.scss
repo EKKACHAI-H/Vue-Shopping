@@ -1,0 +1,55 @@
+.ant-input-group-addon{
+    color: white !important;
+    background-color: #508bf9 !important;
+}
+
+.error-a-input {
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: #fff;
+  border-color: #f5222dd4;
+  box-shadow: 0 0 0 2px #ff181833 !important;
+}
+.error-a-input:hover {
+  outline: none;
+  border: 1px solid red;
+  border-color: #f71924;
+  box-shadow: 0 0 0 2px #ff18184d !important;
+}
+.error-a-input:focus {
+  outline: none;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: #fff;
+  border-color: #f5222dd4;
+  box-shadow: 0 0 0 2px #ff181833 !important;
+}
+
+
+.error-a-password-input {
+  .ant-input {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: #fff;
+    border-color: #f5222dd4;
+    box-shadow: 0 0 0 2px #ff181833 !important;
+  }
+}
+.error-a-password-input:hover {
+  .ant-input:hover {
+    outline: none;
+    border: 1px solid red;
+    border-color: #f71924;
+    box-shadow: 0 0 0 2px #ff18184d !important;
+  }
+}
+.error-a-password-input:focus {
+  .ant-input:focus {
+    outline: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: #fff;
+    border-color: #f5222dd4;
+    box-shadow: 0 0 0 2px #ff181833 !important;
+  }
+}
