@@ -1,47 +1,41 @@
 <template>
     <div id="contentPage">
         <div style="position: relative">
-            <img src="../assets/image/bg-test.png" style="width: 100%; height: 550px;">
+            <img src="../../assets/image/bg-test.png" style="width: 100%; height: 550px;">
             <a-button class="btn-image-1 position-center" type="danger">
                 สั่งซื้อสินค้า
             </a-button>
         </div>
         <div style="display: flex;">
             <div class="div-image-2">
-                <img src="../assets/image/bg-test-2.png" class="image-2" >
+                <img src="../../assets/image/bg-test-2.png" class="image-2" >
                 <a-button class="btn-image-1 position-center" type="danger">
                     โปรโมชั่น
                 </a-button>
             </div>
             <div class="div-image-2">
-                <img src="../assets/image/bg-test-2.png" class="image-2" >
+                <img src="../../assets/image/bg-test-2.png" class="image-2" >
                 <a-button class="btn-image-1 position-center" type="danger">
                     โปรโมชั่น
                 </a-button>
             </div>
             <div class="div-image-2">
-                <img src="../assets/image/bg-test-2.png" class="image-2" >
+                <img src="../../assets/image/bg-test-2.png" class="image-2" >
                 <a-button class="btn-image-1 position-center" type="danger">
                     โปรโมชั่น
                 </a-button>
             </div>
         </div>
         <div style="position: relative">
-            <img src="../assets/image/bg-test-3.png" style="width: 100%; height: 350px;">
+            <img src="../../assets/image/bg-test-3.png" style="width: 100%; height: 350px;">
             <a-button class="btn-image-1 position-center" type="danger">
                 ดูเพิ่มเติม
             </a-button>
         </div>
         <div style="display: flex;">
             <div style="width: 50%; position: relative; padding: 120px 70px;">
-                <div style="font-size: 20px;
-    color: #396bc1;
-    font-weight: bold;
-    margin-bottom: 6px;">โปรโมชั่น</div>
-                <div style="font-size: 16px;
-    color: rgb(57, 107, 193);
-    font-weight: bold;
-    margin-bottom: 2px;">Lorem ipsum dolor sit amet</div>
+                <div style="font-size: 20px; color: #396bc1; font-weight: bold; margin-bottom: 6px;">โปรโมชั่น</div>
+                <div style="font-size: 16px; color: rgb(57, 107, 193); font-weight: bold; margin-bottom: 2px;">Lorem ipsum dolor sit amet</div>
                 <div>aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa </div>
                 <div>aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa </div>
                 <a-button class="btn-radius" type="danger" style="margin-top: 30px;">
@@ -61,10 +55,8 @@
         </div>
         <div class="about-me">
             <div class="width-about-me">
-                <div style="font-size: 20px;
-    font-weight: bold;">เกี่ยวกับเรา</div>
-                <div style="font-size: 16px;
-    margin: 4px 0 2px 0;">aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa</div>
+                <div style="font-size: 20px; font-weight: bold;">เกี่ยวกับเรา</div>
+                <div style="font-size: 16px; margin: 4px 0 2px 0;">aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa</div>
                 <div>aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa 
                 </div>
                 <div style="display: flex; padding: 40px 20px;">

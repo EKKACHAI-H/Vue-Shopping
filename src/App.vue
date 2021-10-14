@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import menuTop from "@/components/menuTop.vue";
-import menuBottom from "@/components/menuBottom.vue";
+import menuTop from "@/components/menuBar/menuTop.vue";
+import menuBottom from "@/components/menuBar/menuBottom.vue";
 export default {
   name: "HelloWorld",
   components: {

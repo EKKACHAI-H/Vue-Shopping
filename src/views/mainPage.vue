@@ -3,19 +3,16 @@
     <div id="components-layout-demo-basic">
       <a-layout>
         <a-layout-header>
-          <!-- <menuTop /> -->
         </a-layout-header>
         <a-layout>
-          <a-layout-sider v-if="$route.name !== 'login'">
+          <a-layout-sider v-if="$route.params.path !== 'pathLogin'">
             <menuLeft />
           </a-layout-sider>
           <a-layout-content>
-            <login v-if="$route.name === 'login'"/>
             <contentPage />
           </a-layout-content>
         </a-layout>
         <a-layout-footer>
-          <!-- <menuBottom /> -->
         </a-layout-footer>
       </a-layout>
     </div>
@@ -24,20 +21,13 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-import menuLeft from "@/components/menuLeft.vue";
-import login from "@/components/login.vue";
-import contentPage from "@/components/contentPage.vue";
+import menuLeft from "@/components/menuBar/menuLeft.vue";
+import contentPage from "@/components/menuBar/contentPage.vue";
 
 export default {
   name: "Home",
   components: {
-    // HelloWorld,
-    // menuTop,
-    // menuBottom,
     menuLeft,
-    login,
     contentPage,
   },
   data() {

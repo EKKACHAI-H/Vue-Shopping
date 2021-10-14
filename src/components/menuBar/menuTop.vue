@@ -69,19 +69,23 @@ export default {
         }
     },
     methods: {
-        onLogin(flag) {
-            if (flag === 'login') {
-                if (this.$route.name !== 'login') {
-                    this.$router.push('/login');
+        onLogin(flagPath) {
+            const objPath = {
+                name: 'nonLogin',
+                params: { 
+                    path: flagPath === 'login' ? 'pathLogin' : 'pathRegister'
                 }
-                return
             }
-            alert('ระบบยังไม้เปิดให้ใช้งานในขณะนี้')
-            // this.$router.push('/register');
+            if (flagPath === 'login' && this.$route.params.path !== 'pathLogin') {
+                this.$router.push(objPath);
+            }
+            else if (flagPath === 'register' && this.$route.params.path !== 'pathRegister') {
+                this.$router.push(objPath);
+            }
         },
         onLogOut() {
             this.$store.state.login = false;
-            this.$router.push({name:'login'});
+            this.$router.push({ name: 'nonLogin', params: { path: 'pathLogin' } });
         }
     }
 };

@@ -13,14 +13,14 @@
                         <div style="display: flex;">
                             <div style="width: 60%; text-align: left;">
                                 <div>
-                                    <img src="../assets/image/icon.jpg" style="width: 84px">
+                                    <img src="../../assets/image/icon.jpg" style="width: 84px">
                                 </div>
                                 <div style="padding: 8px 0;">
                                     99/9 หมู่ 5 ซ.แก้วอินทร์ 14 ถ.เสาธงหิน อ.บางใหญ่ จ.นนทบุรี 11140
                                 </div>
                                 <div>
                                     <span>
-                                        <img src="../assets/image/customerService.jpg" style="width: 34px">
+                                        <img src="../../assets/image/customerService.jpg" style="width: 34px">
                                     </span>
                                     <span style="padding-left: 16px;">02 150 1882</span>
                                 </div>
